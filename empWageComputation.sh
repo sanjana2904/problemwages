@@ -1,3 +1,4 @@
+
 #! /bin/bash 
 
 attendence=$(( RANDOM % 2 ))
@@ -45,4 +46,5 @@ echo "the daily wage of the employee is $wage_per_day "
 no_of_days_per_month=20
 wage_per_month=$(( wage_per_day * no_of_days_per_month ))
 echo "the wage of the employee for the month is $wage_per_month"
+
 
