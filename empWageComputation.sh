@@ -48,3 +48,11 @@ wage_per_month=$(( wage_per_day * no_of_days_per_month ))
 echo "the wage of the employee for the month is $wage_per_month"
 
 
+#wages for 100 hour in month
+
+no_of_hour=100
+wage_per_month_for_100 hours=$((wage_per_day * no_of_days_per_month * no_of_hour))
+echo "the wage of employee for month is $wage_per_month_for_100 hour"
+
+
+
