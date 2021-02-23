@@ -58,7 +58,16 @@ echo "the wage of employee for month is $wage_per_month_for_100 hour"
 get_work_hrs ()
 {
         emp_attendence in
-=======
 
-
+case $emp_attendance in
+        0)
+          no_of_hrs_per_day=0
+            ;;
+        1)
+          no_of_hrs_per_day=8
+            ;;
+        2)
+          no_of_hrs_per_day=4
+            ;;
+esac
 
