@@ -17,3 +17,5 @@ wage_per_hour=20
 no_of_hour=8
 echo "the daily employee wage is:" $((attendance * wage_per_hour * no_per_hour))
 
+  #attendance check for full time and part time
+
