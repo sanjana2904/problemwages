@@ -52,3 +52,6 @@ no_of_hour=100
 wage_per_month_for_100 hours=$((wage_per_day * no_of_days_per_month * no_of_hour))
 echo "the wage of employee for month is $wage_per_month_for_100 hour"
 
+get_work_hrs ()
+{
+        emp_attendence in
