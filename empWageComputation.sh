@@ -37,13 +37,4 @@ case $attendence in
 	;;
 esac
 
-wage_per_hour=20
-wage_per_day=$(( wage_per_hour * no_of_hour_per_day ))
-echo "the daily wage of the employee is $wage_per_day "
-
- #wages for month
-
-no_of_days_per_month=20
-wage_per_month=$(( wage_per_day * no_of_days_per_month ))
-echo "the wage of the employee for the month is $wage_per_month"
 
