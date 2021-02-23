@@ -1,3 +1,4 @@
+
 #! /bin/bash 
 
 attendence=$(( RANDOM % 2 ))
@@ -35,3 +36,5 @@ case $attendence in
 	no_of_hours_per_day=4
 	;;
 esac
+
+
