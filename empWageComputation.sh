@@ -66,3 +66,6 @@ case $emp_attendance in
           no_of_hrs_per_day=4
             ;;
 esac
+
+echo "$no_of_hrs_per_day"
+}
