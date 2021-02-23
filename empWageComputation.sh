@@ -1,4 +1,4 @@
-#! /bin/bash -x
+#! /bin/bash 
 
 attendence=$(( RANDOM % 2 ))
 if(( attendence == 0 ))
@@ -19,3 +19,19 @@ echo "the daily employee wage is:" $((attendance * wage_per_hour * no_per_hour))
 
   #attendance check for full time and part time
 
+attendence=$(( RANDOM % 3 ))
+case $attendence in
+
+0)
+	echo"employee us absent"
+	no_of_hours_per_day=0
+	;;
+1)
+	echo "employee is full time present"
+	no_of_hours_per_day=8
+	;;
+2)
+	echo "employee is part time present"
+	no_of_hours_per_day=4
+	;;
+esac
